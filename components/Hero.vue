@@ -4,8 +4,9 @@
         <div class="flex flex-col items-center justify-center h-full text-white">
             <h1 class="text-5xl font-bold ">Distributed systems</h1>
             <p> Master 2 Computer Science Project</p>
-            <div class="m-4 gap-4">
+            <div class="m-4 flex flex-col justify-center gap-4">
                 <Nuxt-link to="/nuxt-app/" class="text-white bg-blue-500 px-4 py-2 rounded-md">Manneken Data </Nuxt-link>
+                <APITest />
             </div>
         </div>
     </div>
