@@ -15,7 +15,7 @@ if [[ "$OS" == *"NT"* || "$OS" == *"MINGW"* || "$OS" == *"CYGWIN"* ]]; then
 fi
 
 echo "Starting deployment process for nginx-home on $OS..."
-
+npm i
 # Step 1: Build the Nuxt application
 echo "Building the Nuxt application..."
 if npm run build; then
