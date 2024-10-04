@@ -8,6 +8,9 @@
                 <Nuxt-link to="/nuxt-app/" class="text-white bg-blue-500 px-4 py-2 rounded-md">Manneken Data </Nuxt-link>
                 <APITest />
             </div>
+            <div class="m-4 flex flex-col justify-center gap-4">
+                <Nuxt-link to="/bb-app/" class="text-white bg-blue-500 px-4 py-2 rounded-md">Manneken Data </Nuxt-link>
+            </div>
         </div>
     </div>
 </template>
